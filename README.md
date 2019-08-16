@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An Adaptive design means the site is adaptive to the screen that is displaying it. There is a lot of back and forth between the system and server. The design relies on predefined screen sizes to adapt itself to resolutions across devices. * Responsive design uses media querries to ensure the site loads what is needed for the device using it. Faster than adaptive becasue there is only one layout loaded no matter the device.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+Mobile first means the site was initially designed for mobile and media querries will increase to fit. (min-width). Desktop first means the site was initially designed for desktop and media querries will decrease to fit. (max-width).
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+using 62.5% as the base value for font will equate to 10px. So 1rem is 10 px. Easier math
+
 4. How would you describe preprocessing to someone new to CSS?
 
+Preprocessing is the magic that allows a programmer to create css quickly due to the format used. The preprocesser will take the easy to code format and convert it is the mess that is css.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Nesting is very nice as it allows one to code in stages and save space, making it easy to follow. Mixens are like writing your own code snippet you can use over and over. Now that is cool. Crap thing is that no one, save me, know that the monkey-toe mixin will flex order 999
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -59,18 +69,18 @@ Follow these steps to set up your project:
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [0] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] Open your terminal and navigate to your preprocessing project by using the `cd` command
-* [ ] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
+* [0] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
+* [x] Open your terminal and navigate to your preprocessing project by using the `cd` command
+* [x] Once in your project's root folder, run the following command `less-watch-compiler less css index.less`
+* [0] Verify your compiler is working correctly by changing the `background-color` on the `html` selector to `red` in your `index.less` file.
+* [x] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ## Minimum Viable Product
 
@@ -78,7 +88,7 @@ Your finished project must include all of the following requirements:
 
 ### Import LESS Files
 
-* [ ] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
+* [x] Navigate to your `index.less` file. Notice the file is blank. You have been asked to use a certain import order. That order is as follows:
 
 ```markdown
 1.variables.less
