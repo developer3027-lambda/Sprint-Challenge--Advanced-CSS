@@ -1,1 +1,23 @@
 // Mixins Here
+//Phone escape
+@phone: (max-width: 500px);
+
+//parametric mixin for button
+.sign-btn(@bg-color: teal; @bd-radius:10px; @font-color:white; @wide:75%;) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height:3rem;
+    // // // // // // // // //
+    background-color: @bg-color;
+    border-radius: @bd-radius;
+    color: @font-color;
+    width: @wide;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
