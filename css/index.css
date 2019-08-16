@@ -160,6 +160,40 @@ p {
   width: 100%;
   margin: 0 auto;
 }
+.wrapper-nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper-nav .walker-logo {
+  margin: 2%;
+}
+@media (max-width: 500px) {
+  .wrapper-nav .walker-logo {
+    margin: 5%;
+  }
+}
+.wrapper-nav .nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .wrapper-nav .nav-links {
+    width: 100%;
+  }
+}
+.wrapper-nav .nav-links a {
+  font-size: 16px;
+  color: #454A59;
+  text-decoration: none;
+}
+.wrapper-nav h1 {
+  font-size: 40px;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
