@@ -224,6 +224,17 @@ p {
     width: 50%;
   }
 }
+.btn:hover {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  height: 3rem;
+  background-color: #81848E;
+  border-radius: 5px;
+  color: #23293B;
+  width: 25%;
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
