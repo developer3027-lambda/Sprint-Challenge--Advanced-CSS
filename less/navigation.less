@@ -5,6 +5,7 @@
     .center-flex();
     width:100%;
     flex-direction:column;
+    margin: 2% 0;
     .walker-logo {
         margin: 2%;
 
@@ -34,4 +35,8 @@
 //sign up button
 .btn {
     .sign-btn(@btn-bg-color; @bd-radius:5px; @wild-sand; @wide:25%;);
+
+    @media @phone {
+        .sign-btn(@btn-bg-color; @bd-radius:5px; @wild-sand; @wide:50%;);
+    }
 }
